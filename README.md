@@ -1,23 +1,23 @@
-# David + Michelle Strength
+# David + Michelle Strength — Shared-Workout Version
 
-Free installable workout PWA for iPhone.
+This version is designed for **one phone tracking David and Michelle simultaneously**.
 
-## Publish free with GitHub Pages
-1. Create a free GitHub account.
-2. Create a new **public** repository, e.g. `strength-tracker`.
-3. Upload every file in this folder to the repository root.
-4. Go to **Settings → Pages**.
-5. Choose **Deploy from a branch**.
-6. Choose `main` and `/ (root)`, then Save.
-7. Open the HTTPS GitHub Pages URL on your iPhone in Safari.
-8. Tap **Share → Add to Home Screen → Add**.
+## What's new
+- No person selection before a workout.
+- Every exercise shows David and Michelle together.
+- Each set has separate Weight / Reps (or seconds) / RIR / Complete controls for each person.
+- Previous performance and progression recommendation are shown separately for David and Michelle.
+- Finishing the shared workout saves two individual histories behind the scenes, so Progress still works per person.
+- Existing V1 workout history remains compatible because the same IndexedDB database is used.
+
+## Update the already-published GitHub Pages app
+1. Open your existing GitHub `strength-tracker` repository.
+2. Replace/upload **all files in this folder** at the repository root.
+3. Commit the changes to `main`.
+4. GitHub Pages should redeploy automatically within a minute or two.
+5. On the iPhone, open the app. If you still see the old version, close it completely and reopen it. If needed, open the GitHub Pages URL in Safari once and refresh.
 
 ## Data
-Workout history is stored locally on the device using IndexedDB. David and Michelle stay separate on the same device, but two different iPhones will not sync automatically.
+Workout data stays on the iPhone. This is intentional for the current one-phone workflow.
 
-Use **More → Export backup** periodically. Cloud sync can be added later.
-
-## Local testing on Windows
-From this folder:
-`python -m http.server 8000`
-Then open `http://localhost:8000`
+Use **More → Export backup** periodically.
