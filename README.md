@@ -34,3 +34,10 @@ Use **More → Export backup** periodically.
 ## October 15 equipment refinement
 - Day 2 D1 now uses the straight-bar high-cable rear-delt row, 3 × 12–15.
 - No reverse pec deck or rope attachment is required. Straight-bar guidance is included for standing cable crunches; the Pallof press requires a chest-height pulley.
+
+## October 15 progressive overload update (v5)
+- Day 3 C2 incline push-ups → **Straight-Bar Triceps Pressdown**, 3 × 10–15.
+- Day 2 A1 unloaded single-leg RDL → **Machine Hamstring Curl**, 3 × 10–15 on convertible leg-extension/curl machine.
+- Day 2 C2 calf raises → **Single-Leg Calf Raise (Slow Tempo)**, 3 × 10–15/leg; 3-second lower, 2-second bottom hold, 2-second top hold.
+- Separate progression prompts remain for David and Michelle. At the top of a machine exercise rep range for every set, increase resistance in the next session; on calf raises prioritize strict tempo and then safe additional load.
+- The existing `dm-strength-v1` IndexedDB store and history are untouched; previous exercise history remains saved. Export backup before installing.
