@@ -24,7 +24,7 @@ Use **More → Export backup** periodically.
 
 ## October 2026 exercise update
 - Face Pull → Standing High-Cable Rear-Delt Row (straight bar; no reverse pec deck or rope needed).
-- Plank → Standing Pallof Press.
+- Plank → Standing Cable Crunch (fixed high pulley and straight bar).
 - Cable Crunch or Dead Bug → Standing Cable Crunch with straight bar only.
 - Floor Push-Ups → Incline Push-Ups on a sturdy elevated bench or fixed bar (hands only; feet remain on the floor).
 - No exercises require lying, sitting, kneeling, or placing hands on the gym floor.
@@ -33,7 +33,7 @@ Use **More → Export backup** periodically.
 
 ## October 15 equipment refinement
 - Day 2 D1 now uses the straight-bar high-cable rear-delt row, 3 × 12–15.
-- No reverse pec deck or rope attachment is required. Straight-bar guidance is included for standing cable crunches; the Pallof press requires a chest-height pulley.
+- No reverse pec deck or rope attachment is required. Straight-bar guidance is included for standing cable crunches; the fixed high pulley does not support the Pallof press, which is replaced with standing cable crunches.
 
 ## October 15 progressive overload update (v5)
 - Day 3 C2 incline push-ups → **Straight-Bar Triceps Pressdown**, 3 × 10–15.
@@ -41,3 +41,10 @@ Use **More → Export backup** periodically.
 - Day 2 C2 calf raises → **Single-Leg Calf Raise (Slow Tempo)**, 3 × 10–15/leg; 3-second lower, 2-second bottom hold, 2-second top hold.
 - Separate progression prompts remain for David and Michelle. At the top of a machine exercise rep range for every set, increase resistance in the next session; on calf raises prioritize strict tempo and then safe additional load.
 - The existing `dm-strength-v1` IndexedDB store and history are untouched; previous exercise history remains saved. Export backup before installing.
+
+## October 21 fixed-high-pulley update (v6)
+- Day 1 D2 Standing Pallof Press → **Standing Cable Crunch**, 3 × 12–15, using the fixed high pulley and straight bar.
+- Day 2 D2 standing cable crunch standardized to 3 × 12–15.
+- Removed unavailable Pallof press setup instructions.
+- Service worker cache bumped to v6 for easier updates.
+- Keep the same app URL to retain existing local workout logs; export a backup before updating.
